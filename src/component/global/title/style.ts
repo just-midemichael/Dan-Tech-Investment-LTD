@@ -2,6 +2,24 @@
 import { styled } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 
+export const H = styled(Box)({
+  fontSize: "3.4rem",
+  display: "flex",
+  fontWeight: 600,
+  "@media (max-width: 1000px)": {
+    fontSize: "3.0rem",
+  },
+  "@media (max-width: 800px)": {
+    fontSize: "2.8rem",
+  },
+  "@media (max-width: 600px)": {
+    fontSize: "2.6rem",
+  },
+  "@media (max-width: 400px)": {
+    fontSize: "2.4rem",
+  },
+});
+
 export const H1 = styled(Box)({
   fontSize: "2.5rem",
   display: "flex",
@@ -84,20 +102,5 @@ export const H6 = styled(Box)({
   },
   "@media (max-width: 400px)": {
     fontSize: "0.85rem",
-  },
-});
-
-export const H = styled(Box)({
-  fontSize: "3.4rem",
-  display: "flex",
-  fontWeight: 600,
-  "@media (max-width: 800px)": {
-    fontSize: "3.0rem",
-  },
-  "@media (max-width: 600px)": {
-    fontSize: "2.8rem",
-  },
-  "@media (max-width: 400px)": {
-    fontSize: "2.6rem",
   },
 });

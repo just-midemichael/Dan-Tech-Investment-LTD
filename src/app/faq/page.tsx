@@ -1,5 +1,6 @@
 import { faqHero } from "@/db/globalHeroSection";
 import { GlobalHeroSection } from "@/section/globalHero/globalHeroSection";
+import { FaqsSection } from "../../section/faqs/faqsSection";
 
 const Faqs = () => {
   return (
@@ -10,6 +11,7 @@ const Faqs = () => {
         pageImage={faqHero.image}
         imageDisplay={true}
       />
+      <FaqsSection />
     </main>
   );
 };

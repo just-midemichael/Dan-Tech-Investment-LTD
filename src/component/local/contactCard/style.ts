@@ -70,7 +70,7 @@ export const Image = styled(image)({
 export const OfficeAddressContainer = styled(Box)({
   //   border: "1px solid black",
   width: "100%",
-  maxWidth: "470px",
+  maxWidth: "440px",
   height: "100%",
   display: "flex",
   justifyContent: "flex-end",
@@ -85,7 +85,7 @@ export const OfficeAddressContainer = styled(Box)({
 export const OfficeAddressLink = styled(Box)({
   fontSize: "0.95rem",
   fontWeight: 500,
-  color: appStyle.headerTitleColor,
+  color: "#fff",
   display: "flex",
   gap: "10px",
   cursor: "pointer",
@@ -148,12 +148,15 @@ export const PhoneContainer = styled(Box)({
 export const EmailPhoneLink = styled("a")({
   fontSize: "0.95rem",
   fontWeight: 500,
-  color: appStyle.headerTitleColor,
+  color: "#fff",
   display: "flex",
   gap: "10px",
   cursor: "pointer",
   textAlign: "left",
   wordBreak: "break-word",
+  ":hover": {
+    textDecoration: "underline",
+  },
 });
 
 export const SocialMediaContainer = styled(Box)({
@@ -187,16 +190,18 @@ export const SocialMediaIcon = styled(Icon)({
   height: "30px",
   objectFit: "contain",
   cursor: "pointer",
-  "&:hover": {},
 });
 
 export const Link = styled(Box)({
   fontSize: "0.95rem",
   fontWeight: 500,
-  color: appStyle.headerTitleColor,
+  color: "#fff",
   display: "flex",
   gap: "10px",
   cursor: "pointer",
   textAlign: "left",
   wordBreak: "break-word",
+  ":hover": {
+    textDecoration: "underline",
+  },
 });

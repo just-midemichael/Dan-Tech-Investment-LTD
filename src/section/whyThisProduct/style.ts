@@ -24,7 +24,7 @@ export const HeroContentWraper = styled(Box)({
 export const TextFocalBox = styled(Box)({
   // border: "1px solid red",
   width: "100%",
-  maxWidth: "600px",
+  maxWidth: "560px",
   height: "fit-content",
   minHeight: "100%",
   display: "flex",

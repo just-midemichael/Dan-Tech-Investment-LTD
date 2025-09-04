@@ -18,7 +18,7 @@ import TrendingUpIcon from "@mui/icons-material/TrendingUp";
 import { focalText } from "../../db/heroSection";
 import { appStyle } from "@/db/appStyle";
 
-export const HeroSection = () => {
+export const HomeHeroSection = () => {
   const router = useRouter();
 
   return (

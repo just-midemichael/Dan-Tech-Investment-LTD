@@ -38,7 +38,7 @@ export const ProductSection = () => {
               key={data.id}
               prouctTitle={data.title}
               productDescription={data.description}
-              proudctImage={data.image}
+              productImage={data.image}
               productPageLink={data.link}
               productBackground={data.background}
               id={`${data.title}${data.id}`}

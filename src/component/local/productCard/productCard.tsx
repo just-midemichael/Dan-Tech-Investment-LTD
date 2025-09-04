@@ -26,7 +26,7 @@ type ProductCardProps = {
   ariaLabel: string;
   prouctTitle: string;
   productDescription: string;
-  proudctImage: string | StaticImageData;
+  productImage: string | StaticImageData;
   productPageLink?: string;
 };
 
@@ -36,7 +36,7 @@ export const ProductCard = ({
   ariaLabel,
   prouctTitle,
   productDescription,
-  proudctImage,
+  productImage,
   productPageLink,
 }: ProductCardProps) => {
   const router = useRouter();
@@ -77,7 +77,7 @@ export const ProductCard = ({
         </ProductButtonBox>
       </TextFocalBox>
       <ImageFocalBox>
-        <ProductImage src={proudctImage} alt={`${prouctTitle} Image`} />
+        <ProductImage src={productImage} alt={`${prouctTitle} Image`} />
       </ImageFocalBox>
     </ProductCardWrapper>
   );

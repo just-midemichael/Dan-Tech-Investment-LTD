@@ -1,5 +1,5 @@
 import { CoreValueSection } from "@/section/coreValue/coreValueSection";
-import { HeroSection } from "@/section/hero/heroSection";
+import { HomeHeroSection } from "@/section/homeHero/homeHeroSection";
 import { HowToInvestSection } from "@/section/howToInvest/howToInvestSection";
 import { NewsLetter } from "@/section/newsLetter/newsLetter";
 import { ProductSection } from "@/section/product/productSection";
@@ -8,7 +8,7 @@ import { WhyDanTechSection } from "@/section/whyDanTech/whyDanTechSection";
 const Home = () => {
   return (
     <main style={{ width: "100%" }}>
-      <HeroSection />
+      <HomeHeroSection />
       <CoreValueSection />
       <ProductSection />
       <HowToInvestSection />

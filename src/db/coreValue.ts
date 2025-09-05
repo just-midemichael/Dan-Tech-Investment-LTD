@@ -4,7 +4,7 @@ import InsightsIcon from "@mui/icons-material/Insights";
 import SpeedIcon from "@mui/icons-material/Speed";
 
 export const coreValueContent = {
-  sectionTitleText: "Our Value",
+  sectionTitleText: "Our Values",
 };
 
 export const coreValues = [

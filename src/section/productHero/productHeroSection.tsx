@@ -75,6 +75,7 @@ export const ProductHeroSection = ({
             style={{
               background: buttonBackground,
               color: appStyle.headerTitleColor,
+              minWidth: "250px",
             }}
           />
         </TextFocalBox>

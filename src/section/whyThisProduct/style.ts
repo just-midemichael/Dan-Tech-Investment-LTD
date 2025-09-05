@@ -10,9 +10,9 @@ export const HeroContentWraper = styled(Box)({
   minHeight: "500px",
   display: "flex",
   justifyContent: "flex-Start",
-  alignItems: "flex-start",
+  alignItems: "center",
   padding: "80px 0",
-  gap: 50,
+  gap: 70,
   "@media (max-width: 800px)": {
     minHeight: "fit-content",
     flexDirection: "column",
@@ -24,7 +24,7 @@ export const HeroContentWraper = styled(Box)({
 export const TextFocalBox = styled(Box)({
   // border: "1px solid red",
   width: "100%",
-  maxWidth: "560px",
+  maxWidth: "540px",
   height: "fit-content",
   minHeight: "100%",
   display: "flex",
@@ -50,6 +50,7 @@ export const Span = styled("span")({
   width: "100%",
   "@media (max-width: 800px)": {
     maxWidth: "100% !important",
+    textAlign: "center",
   },
 });
 

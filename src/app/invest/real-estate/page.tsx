@@ -1,6 +1,9 @@
+import { realEstateProductBenefits } from "@/db/productBenefits";
 import { productHero, whyThisProduct } from "@/db/products";
 import { NewsLetter } from "@/section/newsLetter/newsLetter";
+import { ProductBenefitsSection } from "@/section/productBenefits/productBenefitsSection";
 import { ProductHeroSection } from "@/section/productHero/productHeroSection";
+import { WhyDanTechSection } from "@/section/whyDanTech/whyDanTechSection";
 import { WhyThisProductSection } from "@/section/whyThisProduct/whyThisProductSection";
 import React from "react";
 
@@ -21,6 +24,8 @@ const RealEstatePage = () => {
         background={`${whyThisProduct.realEstate.backgroundColor}`}
         productImage={whyThisProduct.realEstate.image}
       />
+      <ProductBenefitsSection product={realEstateProductBenefits} />
+      <WhyDanTechSection />
       <NewsLetter />
     </main>
   );

@@ -5,6 +5,7 @@ import { appStyle } from "@/db/appStyle";
 import { ProductBenefitsCard } from "@/component/local/productBenefitsCard/productBenefitsCard";
 import { ProductBenefitsProps } from "@/db/productBenefits";
 import React from "react";
+import { ActionButton } from "@/component/global/button/button";
 
 interface BenefitSectionProps {
   product: ProductBenefitsProps[];
@@ -35,6 +36,13 @@ export const ProductBenefitsSection = ({ product }: BenefitSectionProps) => {
             />
           ))}
         </BenefitsBox>
+        <ActionButton
+          text={"Invest Now"}
+          id={"product-invest-now"}
+          ariaLabel={"product-invest-now"}
+          onClick={undefined}
+          style={{ color: "#fff", minWidth: "200px" }}
+        />
       </BenefitsContentWrapper>
     </Section>
   );

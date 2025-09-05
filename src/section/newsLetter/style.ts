@@ -11,7 +11,7 @@ export const NewsLetterContentWrapper = styled(Box)({
   justifyContent: "center",
   alignItems: "center",
   gap: 50,
-  padding: "0 0 60px",
+  padding: "20px 0 60px",
   "@media (max-width: 1000px)": {
     flexDirection: "column",
   },

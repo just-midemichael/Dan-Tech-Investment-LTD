@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/component/layout/header/header";
 import { Footer } from "@/component/layout/footer/footer";
 import { Main } from "@/component/layout/main/main";
+import { ToastContainer } from "react-toastify";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -45,6 +46,7 @@ export default function RootLayout({
       >
         <Header />
         <Main>{children}</Main>
+        <ToastContainer position="top-right" autoClose={3000} />
         <Footer />
       </body>
     </html>

@@ -4,7 +4,16 @@ import Box from "@mui/material/Box";
 import { appStyle } from "@/db/appStyle";
 
 export const Form = styled("form")({
-  border: "1xp solid red",
+  // border: "1xp solid red",
+  width: "100%",
+  height: "fit-content",
+  display: "flex",
+  flexDirection: "column",
+  gap: 10,
+});
+
+export const BoxOne = styled(Box)({
+  // border: "1px solid red",
   width: "100%",
   height: "fit-content",
   display: "flex",
@@ -15,6 +24,12 @@ export const Form = styled("form")({
     flexDirection: "column",
     alignItems: "flex-start",
   },
+});
+
+export const BoxTwo = styled(Box)({
+  // border: "1px solid red",
+  padding: "0 10px",
+  minHeight: "20px",
 });
 
 export const InputBox = styled(Box)({

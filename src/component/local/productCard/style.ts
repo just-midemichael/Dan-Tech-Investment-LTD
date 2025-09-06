@@ -122,6 +122,6 @@ export const ImageFocalBox = styled(Box)({
 
 export const ProductImage = styled(image)({
   width: "100%",
-  height: "100%",
+  height: "auto",
   objectFit: "contain",
 });

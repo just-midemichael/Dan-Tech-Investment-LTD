@@ -10,7 +10,8 @@ interface ActionButtonProps {
   type?: "button" | "submit" | "reset" | undefined;
   fontWeight?: number | string;
   style?: React.CSSProperties;
-  onClick: React.MouseEventHandler<HTMLButtonElement> | undefined;
+  disabled?: boolean | undefined;
+  onClick?: React.MouseEventHandler<HTMLButtonElement> | undefined;
 }
 
 export const ActionButton = ({
@@ -21,6 +22,7 @@ export const ActionButton = ({
   type,
   fontWeight,
   style,
+  disabled,
   onClick,
 }: ActionButtonProps) => {
   return (
@@ -30,6 +32,7 @@ export const ActionButton = ({
       id={id}
       aria-label={ariaLabel}
       type={type}
+      disabled={disabled}
     >
       <Paragraph1
         style={{ fontWeight: fontWeight, textTransform: "capitalize" }}

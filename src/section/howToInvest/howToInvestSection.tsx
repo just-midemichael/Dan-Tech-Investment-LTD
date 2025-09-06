@@ -47,7 +47,7 @@ export const HowToInvestSection = () => {
         </StepsWrapper>
         <ButtonBox>
           <ActionButton
-            text={"Invest Now"}
+            text={"Start Investing"}
             type="button"
             style={{
               background: `${appStyle.cardDefaultBackgroundColor}`,

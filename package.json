@@ -14,10 +14,16 @@
     "@mui/icons-material": "^7.3.1",
     "@mui/material": "^7.3.1",
     "@next/font": "^14.2.15",
+    "axios": "^1.11.0",
+    "formik": "^2.4.6",
     "hamburger-react": "^2.5.2",
     "next": "15.4.6",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-confetti": "^6.4.0",
+    "react-dom": "19.1.0",
+    "react-loader-spinner": "^6.1.6",
+    "react-toastify": "^11.0.5",
+    "yup": "^1.7.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

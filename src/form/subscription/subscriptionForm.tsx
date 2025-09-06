@@ -54,7 +54,9 @@ export const SubscriptionForm = () => {
       } else if (response.status === 409) {
         toast.error("⚠️ You're already subscribed with this email.");
       } else {
-        toast.error("❌ Subscription failed. Try again!");
+        toast.error(
+          "❌ Subscription failed. Please check your network and try again!"
+        );
       }
     },
   });

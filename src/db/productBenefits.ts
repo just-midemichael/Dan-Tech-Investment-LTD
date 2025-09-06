@@ -28,7 +28,7 @@ export const agricultureProductBenefits: ProductBenefitsProps[] = [
     icon: SecurityIcon,
     title: "Secure Investment",
     description:
-      "Your money deserves more than hope—it deserves certainty. At Dan-Tech, we don’t just promise security, we engineer it. When you invest with Dan-Tech, you're building wealth on a foundation of trust.",
+      "Your money deserves deserves certainty. At Dan-Tech, we don’t just promise security, we engineer it. When you invest with Dan-Tech, you're building wealth on a foundation of trust.",
   },
   {
     id: 3,
@@ -52,7 +52,7 @@ export const autoMobileProductBenefits: ProductBenefitsProps[] = [
     icon: SecurityIcon,
     title: "Secure Investment",
     description:
-      "Your money deserves more than hope—it deserves certainty. At Dan-Tech, we don’t just promise security, we engineer it. When you invest with Dan-Tech, you're building wealth on a foundation of trust.",
+      "Your money deserves deserves certainty. At Dan-Tech, we don’t just promise security, we engineer it. When you invest with Dan-Tech, you're building wealth on a foundation of trust.",
   },
   {
     id: 3,
@@ -76,7 +76,7 @@ export const realEstateProductBenefits: ProductBenefitsProps[] = [
     icon: SecurityIcon,
     title: "Secure Investment",
     description:
-      "Your money deserves more than hope—it deserves certainty. At Dan-Tech, we don’t just promise security, we engineer it. When you invest with Dan-Tech, you're building wealth on a foundation of trust.",
+      "Your money deserves deserves certainty. At Dan-Tech, we don’t just promise security, we engineer it. When you invest with Dan-Tech, you're building wealth on a foundation of trust.",
   },
   {
     id: 3,
@@ -100,7 +100,7 @@ export const stockTradingProductBenefits: ProductBenefitsProps[] = [
     icon: SecurityIcon,
     title: "Secure Investment",
     description:
-      "Your money deserves more than hope—it deserves certainty. At Dan-Tech, we don’t just promise security, we engineer it. When you invest with Dan-Tech, you're building wealth on a foundation of trust.",
+      "Your money deserves deserves certainty. At Dan-Tech, we don’t just promise security, we engineer it. When you invest with Dan-Tech, you're building wealth on a foundation of trust.",
   },
   {
     id: 3,
@@ -124,7 +124,7 @@ export const transportationProductBenefits: ProductBenefitsProps[] = [
     icon: SecurityIcon,
     title: "Secure Investment",
     description:
-      "Your money deserves more than hope—it deserves certainty. At Dan-Tech, we don’t just promise security, we engineer it. When you invest with Dan-Tech, you're building wealth on a foundation of trust.",
+      "Your money deserves deserves certainty. At Dan-Tech, we don’t just promise security, we engineer it. When you invest with Dan-Tech, you're building wealth on a foundation of trust.",
   },
   {
     id: 3,
@@ -148,7 +148,7 @@ export const goldProductBenefits: ProductBenefitsProps[] = [
     icon: SecurityIcon,
     title: "Secure Investment",
     description:
-      "Your money deserves more than hope—it deserves certainty. At Dan-Tech, we don’t just promise security, we engineer it. When you invest with Dan-Tech, you're building wealth on a foundation of trust.",
+      "Your money deserves deserves certainty. At Dan-Tech, we don’t just promise security, we engineer it. When you invest with Dan-Tech, you're building wealth on a foundation of trust.",
   },
   {
     id: 3,

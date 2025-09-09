@@ -4,27 +4,60 @@ import Box from "@mui/material/Box";
 import { appStyle } from "@/db/appStyle";
 
 export const Form = styled("form")({
-  border: "1xp solid red",
+  //   border: "1px solid gold",
   width: "100%",
-  minWidth: "300px",
+  maxWidth: "600px",
   height: "fit-content",
-  minHeight: "200px",
+  maxHeight: "500px",
   display: "flex",
   flexDirection: "column",
+  alignItems: "flex-start",
   gap: 10,
+  background: "#ffff",
+  borderRadius: "8px",
+  padding: "20px",
+  paddingTop: "0",
+  overflowX: "hidden",
+  position: "relative",
+  "@media (max-width: 800px)": {
+    maxWidth: "100%",
+    minHeight: "100%",
+    borderRadius: "0px",
+  },
 });
 
-export const BoxOne = styled(Box)({
-  // border: "1px solid red",
+export const CloseIconBox = styled(Box)({
+  //   border: "1px solid red",
   width: "100%",
   height: "fit-content",
+  minHeight: "55px",
+  display: "flex",
+  justifyContent: "flex-end",
+  alignItems: "center",
+  position: "sticky",
+  top: "0px",
+  zIndex: 10,
+  fontSize: "1.8rem",
+  backdropFilter: "blur(2px)",
+  "@media (max-width: 800px)": {
+    minHeight: "60px",
+    fontSize: "2.2rem",
+  },
+});
+
+export const FormContentBox = styled(Box)({
+  border: "1px solid red",
+  width: "100%",
+  height: "fit-content",
+  minHeight: "500px",
   display: "flex",
   justifyContent: "flex-start",
   alignItems: "center",
   gap: 12,
-  "@media (max-width: 600px)": {
+  "@media (max-width: 800px)": {
     flexDirection: "column",
     alignItems: "flex-start",
+    minHeight: "1000px",
   },
 });
 
@@ -67,7 +100,7 @@ export const EmailInput = styled("input")({
 });
 
 export const ButtonBox = styled(Box)({
-  //   border: "1px solid red",
+  border: "1px solid red",
   width: "100%",
   maxWidth: "fit-content",
   height: "fit-content",

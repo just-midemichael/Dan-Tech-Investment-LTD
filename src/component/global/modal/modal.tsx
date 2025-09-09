@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Modal from "@mui/material/Modal";
 
 interface modalProps {
@@ -16,22 +16,26 @@ export const ModalComponent = ({
   modalDescription,
   children,
 }: modalProps) => {
-  const appBody = document.getElementById("app-body");
-
-  if (appBody) {
-    appBody.style.overflow = open ? "hidden" : "auto";
-  }
+  useEffect(() => {
+    const appBody = document.getElementById("app-body");
+    if (appBody) {
+      appBody.style.overflow = open ? "hidden" : "auto";
+    }
+  }, [open]);
 
   return (
-    <div>
-      <Modal
-        open={open}
-        onClose={onClose}
-        aria-labelledby={`${modalTitle}-modal`}
-        aria-describedby={`${modalDescription}-modal`}
-      >
-        <>{children}</>
-      </Modal>
-    </div>
+    <Modal
+      open={open}
+      onClose={onClose}
+      aria-labelledby={`${modalTitle}-modal`}
+      aria-describedby={`${modalDescription}-modal`}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
+      <>{children}</>
+    </Modal>
   );
 };

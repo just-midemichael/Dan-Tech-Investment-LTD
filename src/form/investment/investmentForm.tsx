@@ -17,6 +17,8 @@ import { appStyle } from "@/db/appStyle";
 import { toast } from "react-toastify";
 import { ButtonComponent } from "@/component/global/button/style";
 import { productList } from "@/db/products";
+import { Logo } from "@/component/layout/footer/style";
+import mainLogo from "../../../public/di-main-logo.png";
 
 interface InvestmentFormProps {
   onClose: () => void;
@@ -45,7 +47,7 @@ export const InvestmentForm = ({
       name: defaultProduct.name,
       interestRate: defaultProduct.roi.toString(),
     });
-  }, []);
+  }, [productName]);
 
   // Function to format input as Naira currency
   const formatToNaira = (value: string) => {
@@ -99,6 +101,7 @@ export const InvestmentForm = ({
   return (
     <Form ref={formRef} onSubmit={handleSubmit}>
       <CloseIconBox>
+        <Logo src={mainLogo} alt={`${mainLogo}`} style={{ width: "120px" }} />
         <CloseIcon
           fontSize="inherit"
           style={{ color: appStyle.headerTitleColor, cursor: "pointer" }}

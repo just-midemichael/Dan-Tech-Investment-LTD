@@ -47,7 +47,6 @@ const StockTradingPage = () => {
       >
         <InvestmentForm onClose={handleClose} productName={"stock trading"} />
       </ModalComponent>
-      <NewsLetter />
     </main>
   );
 };

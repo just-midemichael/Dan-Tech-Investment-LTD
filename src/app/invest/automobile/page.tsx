@@ -37,6 +37,7 @@ const AutoMobilePage = () => {
         onClick={handleOpen}
       />
       <WhyDanTechSection />
+      <NewsLetter />
       <ModalComponent
         open={open}
         onClose={handleClose}
@@ -45,7 +46,6 @@ const AutoMobilePage = () => {
       >
         <InvestmentForm onClose={handleClose} productName={"auto-mobile"} />
       </ModalComponent>
-      <NewsLetter />
     </main>
   );
 };

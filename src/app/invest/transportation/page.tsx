@@ -47,7 +47,6 @@ const TransportationPage = () => {
       >
         <InvestmentForm onClose={handleClose} productName={"transportation"} />
       </ModalComponent>
-      <NewsLetter />
     </main>
   );
 };

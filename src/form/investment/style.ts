@@ -4,9 +4,11 @@ import Box from "@mui/material/Box";
 import { appStyle } from "@/db/appStyle";
 
 export const Form = styled("form")({
-  // border: "1xp solid red",
+  border: "1xp solid red",
   width: "100%",
+  minWidth: "300px",
   height: "fit-content",
+  minHeight: "200px",
   display: "flex",
   flexDirection: "column",
   gap: 10,

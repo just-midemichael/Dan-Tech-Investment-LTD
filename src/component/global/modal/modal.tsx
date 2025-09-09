@@ -16,6 +16,12 @@ export const ModalComponent = ({
   modalDescription,
   children,
 }: modalProps) => {
+  const appBody = document.getElementById("app-body");
+
+  if (appBody) {
+    appBody.style.overflow = open ? "hidden" : "auto";
+  }
+
   return (
     <div>
       <Modal
@@ -24,7 +30,7 @@ export const ModalComponent = ({
         aria-labelledby={`${modalTitle}-modal`}
         aria-describedby={`${modalDescription}-modal`}
       >
-        <React.Fragment>{children}</React.Fragment>
+        <>{children}</>
       </Modal>
     </div>
   );

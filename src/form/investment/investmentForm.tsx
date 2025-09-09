@@ -1,5 +1,6 @@
 import React from "react";
+import { Form } from "./style";
 
 export const InvestmentForm = () => {
-  return <div>I</div>;
+  return <Form>Let us get Started</Form>;
 };

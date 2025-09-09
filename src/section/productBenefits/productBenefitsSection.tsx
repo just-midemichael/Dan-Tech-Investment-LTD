@@ -6,7 +6,6 @@ import { ProductBenefitsCard } from "@/component/local/productBenefitsCard/produ
 import { ProductBenefitsProps } from "@/db/productBenefits";
 import React from "react";
 import { ActionButton } from "@/component/global/button/button";
-import { on } from "events";
 
 interface BenefitSectionProps {
   product: ProductBenefitsProps[];

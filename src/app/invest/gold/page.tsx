@@ -46,7 +46,6 @@ const GoldPage = () => {
       >
         <InvestmentForm onClose={handleClose} productName={"gold"} />
       </ModalComponent>
-      <NewsLetter />
     </main>
   );
 };

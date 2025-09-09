@@ -47,7 +47,6 @@ const RealEstatePage = () => {
       >
         <InvestmentForm onClose={handleClose} productName={"real estate"} />
       </ModalComponent>
-      <NewsLetter />
     </main>
   );
 };

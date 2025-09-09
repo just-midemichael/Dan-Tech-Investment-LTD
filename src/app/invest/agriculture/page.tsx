@@ -45,7 +45,7 @@ const AgriculturePage = () => {
         modalTitle={pageTitle}
         modalDescription={`${pageTitle} model for investment`}
       >
-        <InvestmentForm onClose={handleClose} />
+        <InvestmentForm onClose={handleClose} productName={"agriculture"} />
       </ModalComponent>
     </main>
   );

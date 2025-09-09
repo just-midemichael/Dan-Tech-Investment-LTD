@@ -41,7 +41,7 @@ export const ProductBenefitsSection = ({
           ))}
         </BenefitsBox>
         <ActionButton
-          text={"Invest Now"}
+          text={"Apply Now"}
           id={"product-invest-now"}
           ariaLabel={"product-invest-now"}
           onClick={onClick}

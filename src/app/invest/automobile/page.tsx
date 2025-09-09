@@ -1,5 +1,9 @@
+"use client";
+
+import { ModalComponent } from "@/component/global/modal/modal";
 import { autoMobileProductBenefits } from "@/db/productBenefits";
 import { productHero, whyThisProduct } from "@/db/products";
+import { InvestmentForm } from "@/form/investment/investmentForm";
 import { NewsLetter } from "@/section/newsLetter/newsLetter";
 import { ProductBenefitsSection } from "@/section/productBenefits/productBenefitsSection";
 import { ProductHeroSection } from "@/section/productHero/productHeroSection";
@@ -8,6 +12,10 @@ import { WhyThisProductSection } from "@/section/whyThisProduct/whyThisProductSe
 import React from "react";
 
 const AutoMobilePage = () => {
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+  const pageTitle = productHero.agriculture.pageTitle;
   return (
     <main>
       <ProductHeroSection
@@ -16,7 +24,7 @@ const AutoMobilePage = () => {
         pageDescription={productHero.autoMobile.pageDescription}
         buzzTextColor={`${productHero.autoMobile.color}`}
         buttonBackground={`${productHero.autoMobile.buttonBackground}`}
-        onClick={undefined}
+        onClick={handleOpen}
       />
       <WhyThisProductSection
         product={whyThisProduct.autoMobile.product}
@@ -24,8 +32,19 @@ const AutoMobilePage = () => {
         background={`${whyThisProduct.autoMobile.backgroundColor}`}
         productImage={whyThisProduct.autoMobile.image}
       />
-      <ProductBenefitsSection product={autoMobileProductBenefits} />
+      <ProductBenefitsSection
+        product={autoMobileProductBenefits}
+        onClick={handleOpen}
+      />
       <WhyDanTechSection />
+      <ModalComponent
+        open={open}
+        onClose={handleClose}
+        modalTitle={pageTitle}
+        modalDescription={`${pageTitle} model for investment`}
+      >
+        <InvestmentForm onClose={handleClose} productName={"auto-mobile"} />
+      </ModalComponent>
       <NewsLetter />
     </main>
   );

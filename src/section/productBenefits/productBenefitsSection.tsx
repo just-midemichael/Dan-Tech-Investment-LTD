@@ -9,9 +9,13 @@ import { ActionButton } from "@/component/global/button/button";
 
 interface BenefitSectionProps {
   product: ProductBenefitsProps[];
+  onClick: React.MouseEventHandler<HTMLButtonElement> | undefined;
 }
 
-export const ProductBenefitsSection = ({ product }: BenefitSectionProps) => {
+export const ProductBenefitsSection = ({
+  product,
+  onClick,
+}: BenefitSectionProps) => {
   return (
     <Section style={{ maxWidth: "1200px" }}>
       <BenefitsContentWrapper>
@@ -37,10 +41,10 @@ export const ProductBenefitsSection = ({ product }: BenefitSectionProps) => {
           ))}
         </BenefitsBox>
         <ActionButton
-          text={"Invest Now"}
+          text={"Apply Now"}
           id={"product-invest-now"}
           ariaLabel={"product-invest-now"}
-          onClick={undefined}
+          onClick={onClick}
           style={{ color: "#fff", minWidth: "200px" }}
         />
       </BenefitsContentWrapper>

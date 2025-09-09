@@ -1,5 +1,9 @@
+"use client";
+
+import { ModalComponent } from "@/component/global/modal/modal";
 import { transportationProductBenefits } from "@/db/productBenefits";
 import { productHero, whyThisProduct } from "@/db/products";
+import { InvestmentForm } from "@/form/investment/investmentForm";
 import { NewsLetter } from "@/section/newsLetter/newsLetter";
 import { ProductBenefitsSection } from "@/section/productBenefits/productBenefitsSection";
 import { ProductHeroSection } from "@/section/productHero/productHeroSection";
@@ -8,6 +12,11 @@ import { WhyThisProductSection } from "@/section/whyThisProduct/whyThisProductSe
 import React from "react";
 
 const TransportationPage = () => {
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+  const pageTitle = productHero.agriculture.pageTitle;
+
   return (
     <main>
       <ProductHeroSection
@@ -16,7 +25,7 @@ const TransportationPage = () => {
         pageDescription={productHero.transportation.pageDescription}
         buzzTextColor={`${productHero.transportation.color}`}
         buttonBackground={`${productHero.transportation.buttonBackground}`}
-        onClick={undefined}
+        onClick={handleOpen}
       />
       <WhyThisProductSection
         product={whyThisProduct.transportation.product}
@@ -24,8 +33,20 @@ const TransportationPage = () => {
         background={`${whyThisProduct.transportation.backgroundColor}`}
         productImage={whyThisProduct.transportation.image}
       />
-      <ProductBenefitsSection product={transportationProductBenefits} />
+      <ProductBenefitsSection
+        product={transportationProductBenefits}
+        onClick={handleOpen}
+      />
       <WhyDanTechSection />
+      <NewsLetter />
+      <ModalComponent
+        open={open}
+        onClose={handleClose}
+        modalTitle={pageTitle}
+        modalDescription={`${pageTitle} model for investment`}
+      >
+        <InvestmentForm onClose={handleClose} productName={"transportation"} />
+      </ModalComponent>
       <NewsLetter />
     </main>
   );

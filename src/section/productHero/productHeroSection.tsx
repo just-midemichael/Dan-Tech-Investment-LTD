@@ -68,7 +68,7 @@ export const ProductHeroSection = ({
             <Span>{pageDescription}</Span>
           </Paragraph1>
           <ActionButton
-            text={"Invest Now"}
+            text={"Apply Now"}
             id={"invest-in-agricuture"}
             ariaLabel={"invest-in-agricuture"}
             onClick={onClick}

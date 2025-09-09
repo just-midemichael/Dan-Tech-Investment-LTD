@@ -31,7 +31,7 @@ export const CloseIconBox = styled(Box)({
   height: "fit-content",
   minHeight: "55px",
   display: "flex",
-  justifyContent: "flex-end",
+  justifyContent: "space-between",
   alignItems: "center",
   position: "sticky",
   top: "0px",

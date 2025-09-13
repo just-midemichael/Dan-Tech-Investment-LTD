@@ -124,4 +124,7 @@ export const ProductImage = styled(image)({
   width: "100%",
   height: "auto",
   objectFit: "contain",
+  "@media (max-width: 800px)": {
+    height: "250px",
+  },
 });

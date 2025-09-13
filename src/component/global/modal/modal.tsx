@@ -7,6 +7,8 @@ interface modalProps {
   modalTitle: string;
   modalDescription: string;
   children: React.ReactNode;
+  style?: React.CSSProperties;
+  background?: string;
 }
 
 export const ModalComponent = ({
@@ -15,6 +17,8 @@ export const ModalComponent = ({
   modalTitle,
   modalDescription,
   children,
+  style,
+  background,
 }: modalProps) => {
   useEffect(() => {
     const appBody = document.getElementById("app-body");
@@ -29,13 +33,28 @@ export const ModalComponent = ({
       onClose={onClose}
       aria-labelledby={`${modalTitle}-modal`}
       aria-describedby={`${modalDescription}-modal`}
-      style={{
+      style={style}
+      sx={{
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
       }}
     >
-      <>{children}</>
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          border: "none",
+          outline: "none",
+          boxShadow: "none",
+          background: background ? background : "transparent",
+        }}
+      >
+        {children}
+      </div>
     </Modal>
   );
 };

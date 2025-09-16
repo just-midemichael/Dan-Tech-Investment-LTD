@@ -5,6 +5,7 @@ import { Header } from "@/component/layout/header/header";
 import { Footer } from "@/component/layout/footer/footer";
 import { Main } from "@/component/layout/main/main";
 import { ToastContainer } from "react-toastify";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -44,6 +45,7 @@ export default function RootLayout({
         style={{ minWidth: "320px" }}
         className={` ${geistMono.variable} ${geistSans.variable} ${montserrat.variable} ${roboto.variable}`}
       >
+        <SpeedInsights />
         <Header />
         <Main>{children}</Main>
         <ToastContainer position="top-right" autoClose={3000} />

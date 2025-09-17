@@ -47,7 +47,14 @@ export const GlobalHeroSection = ({
           >
             <Span>{pageTitle}</Span>
           </HeroTitle>
-          <Paragraph1 style={{ color: `${appStyle.paragraphColor}` }}>
+          <Paragraph1
+            style={{
+              color: `${appStyle.paragraphColor}`,
+              width: "100%",
+              maxWidth: "460px",
+              marginTop: "20px",
+            }}
+          >
             <Span>{pageDescription}</Span>
           </Paragraph1>
         </TextFocalBox>

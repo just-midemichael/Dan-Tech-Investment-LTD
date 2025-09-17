@@ -121,10 +121,14 @@ export const ImageFocalBox = styled(Box)({
 });
 
 export const ProductImage = styled(image)({
+  // border: "1px solid #e0e0e0",
   width: "100%",
   height: "auto",
   objectFit: "contain",
   "@media (max-width: 800px)": {
     height: "250px",
+  },
+  "@media (max-width: 600px)": {
+    height: "225px",
   },
 });

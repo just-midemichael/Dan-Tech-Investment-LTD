@@ -73,7 +73,7 @@ export const InvestmentForm = ({
 
     try {
       await fetch(
-        "https://docs.google.com/forms/d/e/1FAIpQLSeO5FNWFsvBVD9-TIjcsyNHEqPmJeeOmr1JaU4m7JFain9AIw/formResponse?usp=pp_url",
+        "https://docs.google.com/forms/d/e/1FAIpQLSfT7Zd6e76NiJmXirc-bGIG30IQ2MRixYcBjMIP9ipInHtByw/formResponse?usp=pp_url",
         {
           method: "POST",
           body: formData,
@@ -114,7 +114,7 @@ export const InvestmentForm = ({
           <InputBox>
             <Input
               type="text"
-              name="entry.2074067747"
+              name="entry.1511490699"
               placeholder="First Name"
               aria-label="First Name"
               required
@@ -125,7 +125,7 @@ export const InvestmentForm = ({
           <InputBox>
             <Input
               type="text"
-              name="entry.541323548"
+              name="entry.1181814060"
               placeholder="Last Name"
               aria-label="Last Name"
               required
@@ -138,7 +138,7 @@ export const InvestmentForm = ({
           <InputBox>
             <Input
               type="text"
-              name="entry.2111760065"
+              name="entry.147710026"
               placeholder="Middle Name"
               aria-label="Middle Name"
               autoComplete="off"
@@ -148,7 +148,7 @@ export const InvestmentForm = ({
           <InputBox>
             <Input
               type="phone"
-              name="entry.335945726"
+              name="entry.1936264587"
               placeholder="Phone Number"
               aria-label="Phone Number"
               required
@@ -169,7 +169,7 @@ export const InvestmentForm = ({
           <InputBox>
             <EmailInput
               type="email"
-              name="entry.250187275"
+              name="entry.1409137645"
               placeholder="Email Address"
               aria-label="Email Address"
               required
@@ -182,7 +182,7 @@ export const InvestmentForm = ({
           <InputBox>
             <Input
               type="text"
-              name="entry.989949166"
+              name="entry.1862650718"
               value={selectedProduct.name}
               placeholder="Product Name"
               aria-label="Product Name"
@@ -195,7 +195,7 @@ export const InvestmentForm = ({
           <InputBox>
             <Input
               type="text"
-              name="entry.339880958"
+              name="entry.1964981534"
               value={`${selectedProduct.interestRate || ""}%`}
               placeholder="Interest Rate (%)"
               aria-label="Interest Rate"
@@ -210,7 +210,7 @@ export const InvestmentForm = ({
           <InputBox>
             <Input
               type="text"
-              name="entry.862874916"
+              name="entry.1492692500"
               placeholder="Investment Amount (₦)"
               aria-label="Investment Amount"
               required
@@ -226,7 +226,7 @@ export const InvestmentForm = ({
           <Label style={{ display: "flex", alignItems: "center", gap: "10px" }}>
             <Check
               type="checkbox"
-              name="entry.1038723034"
+              name="entry.1014170354"
               required
               value="True"
               aria-label="Agree to terms"

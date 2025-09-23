@@ -4,15 +4,17 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
-export const emailAddress = [{ id: 0, email: "info@dantechinvestment.com" }];
+export const emailAddress = [
+  { id: 0, email: "dantech.investments.info@gmail.com" },
+];
 export const phoneNumber = [
-  { id: 0, phone: "+234 903 000 0000" },
-  { id: 1, phone: "+234 903 000 0000" },
+  { id: 0, phone: "+234 701 947 8264" },
+  { id: 1, phone: "+234 816 416 4668" },
 ];
 export const officeAddress = [
   {
     id: 0,
-    address: "Dantech Investment Limited, 123 Tech Street, Lagos, Nigeria.",
+    address: "57, Fajumobi Street Egbeda, Lagos, Nigeria.",
   },
 ];
 

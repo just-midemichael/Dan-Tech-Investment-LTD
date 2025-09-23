@@ -8,7 +8,7 @@ import transportation from "../../public/transportation-1.png";
 export const productList = [
   {
     id: 0,
-    roi: 30,
+    roi: 24,
     name: "Agriculture",
     title: "Agriculture | 30%",
     description:
@@ -19,7 +19,7 @@ export const productList = [
   },
   {
     id: 1,
-    roi: 26,
+    roi: 24,
     name: "Auto-Mobile",
     title: "Auto-mobile | 26%",
     description:
@@ -31,7 +31,7 @@ export const productList = [
   },
   {
     id: 2,
-    roi: 30,
+    roi: 24,
     name: "Real Estate",
     title: "Real-estate | 30%",
     description:
@@ -53,7 +53,7 @@ export const productList = [
   },
   {
     id: 4,
-    roi: 25,
+    roi: 24,
     name: "Transportation",
     title: "Transportation | 25%",
     description:

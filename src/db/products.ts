@@ -20,7 +20,7 @@ export const productList = [
   {
     id: 1,
     roi: 24,
-    name: "B Auto-Mobile",
+    name: "Auto-Mobile",
     title: "Auto-mobile | 24%",
     description:
       "Discover the best global and local stocks to invest in. Get unrestricted access to the U.S. and Nigerian stock markets, right from your mobile phone or computer.",

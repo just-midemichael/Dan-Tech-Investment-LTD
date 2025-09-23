@@ -36,8 +36,8 @@ export const NewsLetterComponent = () => {
               fontWeight: 500,
             }}
           >
-            Sign up for our newsletter to stay up-to-date on products and
-            services
+            Subscribe to our newsletter for the latest updates on our products,
+            and services.
           </Paragraph1>
         </DescriptionBox>
       </TextContainer>

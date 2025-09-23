@@ -2,29 +2,29 @@ export const howToInvest = [
   {
     id: 0,
     sortNumber: "01",
-    title: "Explore product",
+    title: "Explore Product",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero fugit doloremque a laborum enim minima nulla? Delectus voluptatibus ratione dolore quo cumque, non beatae quas nesciunt facilis, illum optio aspernatur.",
+      "Begin your journey by exploring our investment options that aligns with you. click 'Explore' to take the first step.",
   },
   {
     id: 1,
     sortNumber: "02",
-    title: "Click the 'Invest Now' button",
+    title: "Click the 'Apply Now' Button",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero fugit doloremque a laborum enim minima nulla? Delectus voluptatibus ratione dolore quo cumque, non beatae quas nesciunt facilis, illum optio aspernatur.",
+      "Found the product that align with your objective? click on the 'Apply Now' button to proceed to the investment form.",
   },
   {
     id: 2,
     sortNumber: "03",
-    title: "Fill and complete the form",
+    title: "Fill and Complete the Form",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero fugit doloremque a laborum enim minima nulla? Delectus voluptatibus ratione dolore quo cumque, non beatae quas nesciunt facilis, illum optio aspernatur.",
+      "Fill out the investment form with accurate information, including your personal details and investment amount. This helps us process your request smoothly.",
   },
   {
     id: 3,
     sortNumber: "04",
-    title: "Submit a request",
+    title: "Submit a Request",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero fugit doloremque a laborum enim minima nulla? Delectus voluptatibus ratione dolore quo cumque, non beatae quas nesciunt facilis, illum optio aspernatur.",
+      "You're ready. Hit 'Submit' to send your investment request our way. We'll take it from here, ensuring your journey is handled with care and precision.",
   },
 ];

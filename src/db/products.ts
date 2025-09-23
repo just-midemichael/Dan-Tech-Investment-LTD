@@ -10,7 +10,7 @@ export const productList = [
     id: 0,
     roi: 24,
     name: "Agriculture",
-    title: "Agriculture | 30%",
+    title: "Agriculture | 24%",
     description:
       "Discover the best global and local stocks to invest in. Get unrestricted access to the U.S. and Nigerian stock markets, right from your mobile phone or computer.",
     image: agriculture,
@@ -21,7 +21,7 @@ export const productList = [
     id: 1,
     roi: 24,
     name: "Auto-Mobile",
-    title: "Auto-mobile | 26%",
+    title: "Auto-mobile | 24%",
     description:
       "Discover the best global and local stocks to invest in. Get unrestricted access to the U.S. and Nigerian stock markets, right from your mobile phone or computer.",
     image: autoMobile,
@@ -33,7 +33,7 @@ export const productList = [
     id: 2,
     roi: 24,
     name: "Real Estate",
-    title: "Real-estate | 30%",
+    title: "Real-estate | 24%",
     description:
       "Discover the best global and local stocks to invest in. Get unrestricted access to the U.S. and Nigerian stock markets, right from your mobile phone or computer.",
     image: realEstate,
@@ -55,7 +55,7 @@ export const productList = [
     id: 4,
     roi: 24,
     name: "Transportation",
-    title: "Transportation | 25%",
+    title: "Transportation | 24%",
     description:
       "Discover the best global and local stocks to invest in. Get unrestricted access to the U.S. and Nigerian stock markets, right from your mobile phone or computer.",
     image: transportation,

@@ -21,33 +21,33 @@ export const officeAddress = [
 export const socialMediaAddress = [
   {
     platform: "LinkedIn",
-    url: "https://www.linkedin.com/company/dantechinvestment",
+    url: "https://www.linkedin.com/in/dan-tech-investments-066b63386/",
     icon: LinkedInIcon,
-    handle: "dan-tech-investment",
+    handle: "Dan-Tech Investments",
   },
 
   {
     platform: "Facebook",
     url: "https://www.facebook.com/dantechinvestment",
     icon: FacebookOutlinedIcon,
-    handle: "dan-tech-investment",
+    handle: "Dan-Tech Investments",
   },
   {
     platform: "Instagram",
-    url: "https://www.instagram.com/dantechinvestment",
+    url: "https://www.instagram.com/dantech_investments/",
     icon: InstagramIcon,
-    handle: "dan-tech-investment",
+    handle: "dantech_investments",
   },
   {
     platform: "x",
-    url: "https://x.com/dantechinvestment",
+    url: "https://x.com/dantech_invest",
     icon: XIcon,
-    handle: "dan-tech-investment",
+    handle: "dantech_invest",
   },
   {
     platform: "YouTube",
-    url: "https://www.youtube.com/@dantechdigital",
+    url: "https://www.youtube.com/@dantech_investments",
     icon: YouTubeIcon,
-    handle: "dan-tech-investment",
+    handle: "dantech_investments",
   },
 ];

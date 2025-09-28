@@ -44,7 +44,7 @@ export const productList = [
     id: 3,
     roi: 24,
     name: "Shares/Stock Trading",
-    title: "Sahres/Stock Tranding | 24%",
+    title: "Shares/Stock Tranding | 24%",
     description:
       "Discover the best global and local stocks to invest in. Access Shares and Nigerian stock markets with your investment.",
     image: stockTrading,

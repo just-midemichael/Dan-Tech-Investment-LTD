@@ -37,6 +37,6 @@ export const cookiePolicy = [
   {
     title: "8. Contact Us",
     description:
-      "If you have any questions about our use of cookies, please contact us at 📧 support@dan-techinvestment.com or 📞 +234 [Insert Phone Number].",
+      "If you have any questions about our use of cookies, please contact us at 📧 dantech.investments.info@gmail.com or 📞 +234 [07019478264 or 08164164668]",
   },
 ];

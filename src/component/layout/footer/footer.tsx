@@ -135,7 +135,7 @@ export const Footer = () => {
           <Box3>
             <CopyrightBox>
               <CopyrightText>
-                &copy;{year} Dan-Tech Investment Limited, All rights reserved
+                &copy;{year} Dan-Tech Investments Limited, All rights reserved
               </CopyrightText>
             </CopyrightBox>
           </Box3>

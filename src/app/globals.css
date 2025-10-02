@@ -41,7 +41,7 @@ ul.check-list {
 }
 
 ul.check-list li::before {
-  content: "✔️";
+  content: "✅";
   margin-right: 8px;
 }
 

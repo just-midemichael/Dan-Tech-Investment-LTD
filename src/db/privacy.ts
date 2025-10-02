@@ -18,26 +18,26 @@ export const privacyPolicy = [
       {
         item: "Identity Data:",
         description:
-          "Full name, date of birth, gender, nationality, BVN (where applicable)",
+          "Full name, date of birth, gender, nationality, BVN (where applicable).",
       },
       {
         item: "Contact Data:",
         description:
-          "Email address, phone number, residential/business address",
+          "Email address, phone number, residential/business address.",
       },
       {
         item: "Financial Data:",
         description:
-          "Bank account details, investment history, transaction records",
+          "Bank account details, investment history, transaction records.",
       },
       {
         item: "Technical Data:",
-        description: "IP address, browser type, device information, cookies",
+        description: "IP address, browser type, device information, cookies.",
       },
       {
         item: "Usage Data:",
         description:
-          "How you interact with our website, services, and communications",
+          "How you interact with our website, services, and communications.",
       },
     ],
   },
@@ -45,12 +45,12 @@ export const privacyPolicy = [
     title: "2. How We Use Your Information",
     description: "We use your personal data for the following purposes:",
     content: [
-      "To provide and manage investment services",
-      "To verify your identity and comply with KYC/AML regulations",
-      "To process transactions and manage your account",
-      "To send updates, newsletters, and promotional materials (with your consent)",
-      "To improve our services and user experience",
-      "To comply with legal obligations and regulatory requirements",
+      "To provide and manage investment services.",
+      "To verify your identity and comply with KYC/AML regulations.",
+      "To process transactions and manage your account.",
+      "To send updates, newsletters, and promotional materials (with your consent).",
+      "To improve our services and user experience.",
+      "To comply with legal obligations and regulatory requirements.",
     ],
   },
   {
@@ -58,21 +58,21 @@ export const privacyPolicy = [
     description:
       "We process your personal data based on one or more of the following legal grounds:",
     content: [
-      "Your consent",
-      "Performance of a contract",
-      "Compliance with legal obligations",
-      "Our legitimate interests, such as fraud prevention and service improvement",
+      "Your consent.",
+      "Performance of a contract.",
+      "Compliance with legal obligations.",
+      "Our legitimate interests, such as fraud prevention and service improvement.",
     ],
   },
   {
     title: "4. Data Sharing and Disclosure",
     description: "We may share your data with:",
     content: [
-      "Regulatory bodies such as the Nigerian Data Protection Commission (NDPC) and SEC",
-      "Financial institutions and payment processors",
-      "Third-party service providers (e.g., IT support, analytics)",
-      "Legal and tax advisors",
-      "Law enforcement agencies when required by law",
+      "Regulatory bodies such as the Nigerian Data Protection Commission (NDPC) and SEC.",
+      "Financial institutions and payment processors.",
+      "Third-party service providers (e.g., IT support, analytics).",
+      "Legal and tax advisors.",
+      "Law enforcement agencies when required by law.",
       "We ensure that all third parties adhere to strict data protection standards.",
     ],
   },
@@ -81,9 +81,9 @@ export const privacyPolicy = [
     description:
       "If your data is transferred outside Nigeria, we ensure that appropriate safeguards are in place, such as:",
     content: [
-      "Standard Contractual Clauses",
-      "Adequacy decisions",
-      "Your explicit consent",
+      "Standard Contractual Clauses.",
+      "Adequacy decisions.",
+      "Your explicit consent.",
     ],
   },
   {
@@ -95,12 +95,12 @@ export const privacyPolicy = [
     title: "7. Your Rights",
     description: "Under the NDPA, you have the right to:",
     content: [
-      "Access your personal data",
-      "Request correction or deletion",
-      "Object to processing",
-      "Withdraw consent at any time",
-      "Lodge a complaint with the NDPC",
-      "To exercise your rights, contact us at: 📧 privacy@dan-techinvestment.com, 📞 +234 [Insert Phone Number]",
+      "Access your personal data.",
+      "Request correction or deletion.",
+      "Object to processing.",
+      "Withdraw consent at any time.",
+      "Lodge a complaint with the NDPC.",
+      "To exercise your rights, contact us at: 📧 dantech.investments.info@gmail.com, 📞 +234 [07019478264 or 08164164668].",
     ],
   },
   {

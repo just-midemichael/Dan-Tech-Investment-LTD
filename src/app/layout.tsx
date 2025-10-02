@@ -31,7 +31,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "DIG | Dan Investment Group",
-  description: "Welcome to the DIG website",
+  description: "Welcome to Dan-Tech Investments Limited Official website",
 };
 
 export default function RootLayout({

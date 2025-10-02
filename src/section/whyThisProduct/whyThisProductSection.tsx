@@ -3,6 +3,7 @@ import React from "react";
 import {
   HeroContentWraper,
   ImageFocalBox,
+  List,
   ProductImage,
   Span,
   TextFocalBox,
@@ -14,7 +15,7 @@ import { StaticImageData } from "next/image";
 
 type GlobalHeroSectionProps = {
   product: string;
-  description?: string;
+  description?: string[] | string;
   background: string;
   backgroundImage?: string;
   productImage: string | StaticImageData;
@@ -40,13 +41,24 @@ export const WhyThisProductSection = ({
           >
             <Span>Why this product</Span>
           </HeaderTitle1>
-          <Paragraph1
-            style={{
-              color: `${appStyle.headerTitleColor}`,
-            }}
-          >
-            <Span>{description}</Span>
-          </Paragraph1>
+          {Array.isArray(description) ? (
+            description?.map((list, index) => (
+              <Paragraph1
+                key={index}
+                style={{
+                  color: `${appStyle.headerTitleColor}`,
+                }}
+              >
+                <ul className="check-list">
+                  <List>{list}</List>
+                </ul>
+              </Paragraph1>
+            ))
+          ) : (
+            <Paragraph1 style={{ color: appStyle.headerTitleColor }}>
+              <Span className="check-list">{description}</Span>
+            </Paragraph1>
+          )}
         </TextFocalBox>
         <ImageFocalBox>
           <ProductImage src={productImage} alt={`${product} Image`} />

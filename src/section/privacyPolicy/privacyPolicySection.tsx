@@ -33,30 +33,35 @@ export const PrivacyPolicySection = () => {
                 {section.content.map((item, idx) => {
                   if (typeof item === "string") {
                     return (
-                      <List key={idx}>
-                        <Paragraph2
-                          style={{
-                            color: appStyle.paragraphColor,
-                            fontWeight: 500,
-                          }}
-                        >
-                          {item}
-                        </Paragraph2>
-                      </List>
+                      <ul key={idx} className="regular-check-list">
+                        <List>
+                          <Paragraph2
+                            style={{
+                              color: appStyle.paragraphColor,
+                              fontWeight: 500,
+                            }}
+                          >
+                            {item}
+                          </Paragraph2>
+                        </List>
+                      </ul>
                     );
                   } else {
                     return (
-                      <List key={idx}>
-                        <Paragraph2
-                          style={{
-                            color: appStyle.paragraphColor,
-                            fontWeight: 500,
-                          }}
-                        >
-                          {item.item}&nbsp;
-                          {item.description}
-                        </Paragraph2>
-                      </List>
+                      <ul key={idx} className="regular-check-list">
+                        {" "}
+                        <List key={idx}>
+                          <Paragraph2
+                            style={{
+                              color: appStyle.paragraphColor,
+                              fontWeight: 500,
+                            }}
+                          >
+                            {item.item}&nbsp;
+                            {item.description}
+                          </Paragraph2>
+                        </List>
+                      </ul>
                     );
                   }
                 })}

@@ -38,10 +38,24 @@ export const TextFocalBox = styled(Box)({
   },
   "@media (max-width: 800px)": {
     maxWidth: "700px",
+    alignItems: "center",
   },
 });
 
 export const Span = styled("span")({
+  // border: "2px solid red",
+  fontSize: "inherit",
+  fontWeight: "inherit",
+  color: "inherit",
+  lineHeight: "inherit",
+  width: "100%",
+  "@media (max-width: 800px)": {
+    maxWidth: "100% !important",
+    textAlign: "center",
+  },
+});
+
+export const List = styled("li")({
   // border: "2px solid red",
   fontSize: "inherit",
   fontWeight: "inherit",

@@ -52,6 +52,6 @@ export const termsAndConditions = [
   {
     title: "11. Contact Information",
     description:
-      "For questions or concerns regarding these Terms and Conditions, please contact us at 📧 support@dan-techinvestment.com or 📞 +234 [Insert Phone Number].",
+      "For questions or concerns regarding these Terms and Conditions, please contact us at 📧 dantech.investments.info@gmail.com or 📞 +234 [07019478264 or 08164164668].",
   },
 ];

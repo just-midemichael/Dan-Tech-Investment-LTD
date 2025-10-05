@@ -2,7 +2,7 @@ export const termsAndConditions = [
   {
     title: "1. Acceptance of Terms",
     description:
-      "By accessing or using any services provided by Dan-Tech Investment Limited, you agree to be bound by these Terms and Conditions. If you do not agree, please refrain from using our services.",
+      "By accessing or using any services provided by Dan-Tech Investments Limited, you agree to be bound by these Terms and Conditions. If you do not agree, please refrain from using our services.",
   },
   {
     title: "2. Eligibility",
@@ -12,7 +12,7 @@ export const termsAndConditions = [
   {
     title: "3. Services Offered",
     description:
-      "Dan-Tech Investment Limited provides investment advisory, portfolio management, and related financial services in accordance with Nigerian law and regulatory guidelines.",
+      "Dan-Tech Investments Limited provides investment advisory, portfolio management, and related financial services in accordance with Nigerian law and regulatory guidelines.",
   },
   {
     title: "4. Account Registration",
@@ -32,7 +32,7 @@ export const termsAndConditions = [
   {
     title: "7. Intellectual Property",
     description:
-      "All content, trademarks, and intellectual property on our platform are owned by Dan-Tech Investment Limited and may not be reproduced without permission.",
+      "All content, trademarks, and intellectual property on our platform are owned by Dan-Tech Investments Limited and may not be reproduced without permission.",
   },
   {
     title: "8. Limitation of Liability",

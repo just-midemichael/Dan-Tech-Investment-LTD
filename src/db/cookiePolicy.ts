@@ -2,7 +2,7 @@ export const cookiePolicy = [
   {
     title: "1. Introduction",
     description:
-      "This Cookie Policy explains how Dan-Tech Investment Limited uses cookies and similar technologies to recognize you when you visit our website. It outlines what these technologies are, why we use them, and your rights to control their use.",
+      "This Cookie Policy explains how Dan-Tech Investments Limited uses cookies and similar technologies to recognize you when you visit our website. It outlines what these technologies are, why we use them, and your rights to control their use.",
   },
   {
     title: "2. What Are Cookies?",
@@ -37,6 +37,6 @@ export const cookiePolicy = [
   {
     title: "8. Contact Us",
     description:
-      "If you have any questions about our use of cookies, please contact us at 📧 dantech.investments.info@gmail.com or 📞 +234 [07019478264 or 08164164668]",
+      "If you have any questions about our use of cookies, please contact us at 📧 dantech.investments.info@gmail.com or 📞 +234 [07019478264 or 08164164668].",
   },
 ];

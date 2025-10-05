@@ -57,7 +57,7 @@ export const productList = [
     name: "Transportation",
     title: "Transportation | 24%",
     description:
-      "Discover the best global and local stocks to invest in. Get unrestricted access to the U.S. and Nigerian stock markets, right from your mobile phone or computer.",
+      "Transportation investment means putting money into businesses or assets related to the movement of people or goods, with the goal of earning profit.",
     image: transportation,
     link: "/invest/transportation",
     background: "linear-gradient(to right, #4facfe 0%, #00f2fe 100%)", //Malibu Beach
@@ -68,7 +68,7 @@ export const productList = [
     name: "Gold",
     title: "Gold | 24%",
     description:
-      "Discover the best global and local stocks to invest in. Get unrestricted access to the U.S. and Nigerian stock markets, right from your mobile phone or computer.",
+      "Gold investment is the act of buying gold in various forms to protect or grow your wealth. People invest in gold because it holds value over time, especially during inflation or economic uncertainty.",
     image: gold,
     link: "/invest/gold",
     background: "linear-gradient(120deg, #f6d365 0%, #fda085 100%)", //Sunny Morning
@@ -127,7 +127,7 @@ export const productHero = {
       productList.find((productList) => productList.id === 4)?.roi
     } Returns on Investment`,
     pageDescription:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dicta, adipisci veritatis animi eum tempora consequatur voluptatibus. Minima totam voluptates at culpa nobis eum aspernatur quo? Assumenda cum dolorum illo.",
+      "Transportation investment means putting money into businesses or assets related to the movement of people or goods, with the goal of earning profit.",
     buttonBackground: productList.find((productList) => productList.id === 4)
       ?.background,
   },
@@ -138,7 +138,7 @@ export const productHero = {
       productList.find((productList) => productList.id === 0)?.roi
     }% Returns on Investment`,
     pageDescription:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dicta, adipisci veritatis animi eum tempora consequatur voluptatibus. Minima totam voluptates at culpa nobis eum aspernatur quo? Assumenda cum dolorum illo.",
+      "Gold investment is the act of buying gold in various forms to protect or grow your wealth. People invest in gold because it holds value over time, especially during inflation or economic uncertainty.",
     buttonBackground: productList.find((productList) => productList.id === 5)
       ?.background,
   },
@@ -199,16 +199,24 @@ export const whyThisProduct = {
     product: "Transportation",
     backgroundColor: productList.find((productList) => productList.id === 4)
       ?.background,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dicta, adipisci veritatis animi eum tempora consequatur voluptatibus. Minima totam voluptates at culpa nobis eum aspernatur quo? Assumenda cum dolorum illo.",
+    description: [
+      "Daily cash flow",
+      "Constant demand for movement of people and goods",
+      "Opportunity to scale quickly",
+      "Good for hire-purchase or fleet expansion",
+    ],
     image: transportation,
   },
   gold: {
     product: "Gold",
     backgroundColor: productList.find((productList) => productList.id === 5)
       ?.background,
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dicta, adipisci veritatis animi eum tempora consequatur voluptatibus. Minima totam voluptates at culpa nobis eum aspernatur quo? Assumenda cum dolorum illo.",
+    description: [
+      "Hedge against inflation",
+      "Safe-haven asset during economic instability",
+      "Globally recognized store of value",
+      "Liquid asset — easy to sell or exchange",
+    ],
     image: gold,
   },
 };

@@ -20,6 +20,6 @@ const Home = () => {
 
 export default Home;
 export const metadata = {
-  title: "Home | Dan-Tech Investments Limited",
+  title: "Dan-Tech Investments Limited",
   description: "Welcome to Dan-Tech Investments Limited",
 };

@@ -59,7 +59,7 @@ export const HomeHeroSection = () => {
         </TextFocalBox>
         <ImageFocalBox>
           <ImageWrapper>
-            <Image src={heroImage} alt="Hero Image" />
+            <Image src={heroImage} alt="Dan-Tech Investments" />
           </ImageWrapper>
         </ImageFocalBox>
       </HeroContentWraper>

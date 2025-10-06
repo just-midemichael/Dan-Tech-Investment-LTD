@@ -52,3 +52,8 @@ const AgriculturePage = () => {
 };
 
 export default AgriculturePage;
+
+export const metadata = {
+  title: "Invest | Agriculture",
+  description: "Start investing with Dan-Tech Investments Limited",
+};

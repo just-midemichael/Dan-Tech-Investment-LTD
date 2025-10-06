@@ -19,8 +19,8 @@ const Contact = () => {
 
 export default Contact;
 export const metadata = {
-  title: "Contact Us",
-  description: "Get in touch with DIG",
+  title: "Contact Us | Dan-Tech Investments Limited",
+  description: "Get in touch with Dan-Tech Investments Limited",
 };
 // export const dynamic = "force-dynamic"; // This page should always be dynamic
 // export const revalidate = 60; // Revalidate every 60 seconds
@@ -41,25 +41,25 @@ export const metadata = {
 // }; // Viewport settings for responsive design
 // export const openGraph = {
 //   title: "Contact Us",
-//   description: "Get in touch with DIG",
-//   url: "https://dig-website.com/contact",
-//   siteName: "DIG | Dan Investment Group",
+//   description: "Get in touch with Dan-Tech Investments Limited",
+//   url: "https://Dan-Tech Investments Limited-website.com/contact",
+//   siteName: "Dan-Tech Investments Limited | Dan Investment Group",
 //   images: [
 //     {
-//       url: "https://dig-website.com/images/contact.jpg",
+//       url: "https://Dan-Tech Investments Limited-website.com/images/contact.jpg",
 //       width: 1200,
 //       height: 630,
-//       alt: "Contact DIG",
+//       alt: "Contact Dan-Tech Investments Limited",
 //     },
 //   ],
 // }; // Open Graph meta tags for social media sharing
 // export const twitter = {
 //   card: "summary_large_image",
 //   title: "Contact Us",
-//   description: "Get in touch with DIG",
-//   site: "@dig_website",
-//   creator: "@dig_website",
-//   images: ["https://dig-website.com/images/contact.jpg"],
+//   description: "Get in touch with Dan-Tech Investments Limited",
+//   site: "@Dan-Tech Investments Limited_website",
+//   creator: "@Dan-Tech Investments Limited_website",
+//   images: ["https://Dan-Tech Investments Limited-website.com/images/contact.jpg"],
 // }; // Twitter meta tags for social media sharing
 // export const icons = {
 //   icon: "/favicon.ico",
@@ -69,13 +69,13 @@ export const metadata = {
 // export const manifest = "/manifest.json"; // Web app manifest for PWA support
 // export const themeColor = "#ffffff"; // Theme color for the website
 // export const alternates = {
-//   canonical: "https://dig-website.com/contact",
+//   canonical: "https://Dan-Tech Investments Limited-website.com/contact",
 //   languages: {
 //     "en-US": "/contact",
 //     "fr-FR": "/fr/contact",
 //   },
 // }; // Alternate URLs for different languages
-// export const metadataBase = new URL("https://dig-website.com"); // Base URL for metadata
+// export const metadataBase = new URL("https://Dan-Tech Investments Limited-website.com"); // Base URL for metadata
 // export const dynamicParams = true; // Enable dynamic parameters for this page
 // export const dynamicRoute = "/contact/[id]"; // Dynamic route for contact page
 // export const notFound = {

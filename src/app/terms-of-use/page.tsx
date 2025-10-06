@@ -18,6 +18,6 @@ const TermsOfUse = () => {
 
 export default TermsOfUse;
 export const metadata = {
-  title: "Terms of Use - DIG",
-  description: "Learn more about DIG's terms of use",
+  title: "Terms of Use | Dan-Tech Investments Limited",
+  description: "Learn more about Dan-Tech Investments Limited's terms of use",
 };

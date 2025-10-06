@@ -18,6 +18,6 @@ const PrivacyPolicy = () => {
 
 export default PrivacyPolicy;
 export const metadata = {
-  title: "Privacy Policy - DIG",
-  description: "Learn more about DIG's privacy policy",
+  title: "Privacy Policy | Dan-Tech Investments Limited",
+  description: "Learn more about Dan-Tech Investments Limited's privacy policy",
 };

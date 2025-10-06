@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://dan-techinvestments.com
+
+# Sitemaps
+Sitemap: https://dan-techinvestments.com/sitemap.xml

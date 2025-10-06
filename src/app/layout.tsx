@@ -30,7 +30,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DIG | Dan Investment Group",
+  title: "Dan-Tech | Dan-Tech Investments | Dan-Tech Investments Limited",
   description: "Welcome to Dan-Tech Investments Limited Official website",
 };
 

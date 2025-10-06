@@ -1,3 +1,5 @@
+"use client";
+
 import { ModalComponent } from "@/component/global/modal/modal";
 import { agricultureProductBenefits } from "@/db/productBenefits";
 import { productHero, whyThisProduct } from "@/db/products";
@@ -50,8 +52,3 @@ const AgriculturePage = () => {
 };
 
 export default AgriculturePage;
-
-export const metadata = {
-  title: "Invest | Agriculture",
-  description: "Start investing with Dan-Tech Investments Limited",
-};

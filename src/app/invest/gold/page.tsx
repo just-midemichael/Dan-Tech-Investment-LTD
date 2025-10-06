@@ -51,7 +51,3 @@ const GoldPage = () => {
 };
 
 export default GoldPage;
-export const metadata = {
-  title: "Invest | Gold",
-  description: "Start investing with Dan-Tech Investments Limited",
-};

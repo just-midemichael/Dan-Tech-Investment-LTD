@@ -52,7 +52,3 @@ const StockTradingPage = () => {
 };
 
 export default StockTradingPage;
-export const metadata = {
-  title: "Invest | Shares/Stock-Trading",
-  description: "Start investing with Dan-Tech Investments Limited",
-};

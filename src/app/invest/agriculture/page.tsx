@@ -1,5 +1,3 @@
-"use client";
-
 import { ModalComponent } from "@/component/global/modal/modal";
 import { agricultureProductBenefits } from "@/db/productBenefits";
 import { productHero, whyThisProduct } from "@/db/products";

@@ -52,7 +52,3 @@ const RealEstatePage = () => {
 };
 
 export default RealEstatePage;
-export const metadata = {
-  title: "Invest | Real-Estate",
-  description: "Start investing with Dan-Tech Investments Limited",
-};

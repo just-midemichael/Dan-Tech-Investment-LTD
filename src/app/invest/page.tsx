@@ -21,6 +21,6 @@ const Invest = () => {
 
 export default Invest;
 export const metadata = {
-  title: "Invest with DIG today and earn great returns",
-  description: "Start investing with DIG",
+  title: "Invest with Dan-Tech Investments Limited",
+  description: "Start investing with Dan-Tech Investments Limited",
 };

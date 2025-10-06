@@ -52,3 +52,7 @@ const TransportationPage = () => {
 };
 
 export default TransportationPage;
+export const metadata = {
+  title: "Invest | Transportation",
+  description: "Start investing with Dan-Tech Investments Limited",
+};

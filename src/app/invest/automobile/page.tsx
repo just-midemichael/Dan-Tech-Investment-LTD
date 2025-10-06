@@ -51,3 +51,7 @@ const AutoMobilePage = () => {
 };
 
 export default AutoMobilePage;
+export const metadata = {
+  title: "Invest | Auto-Mobile",
+  description: "Start investing with Dan-Tech Investments Limited",
+};

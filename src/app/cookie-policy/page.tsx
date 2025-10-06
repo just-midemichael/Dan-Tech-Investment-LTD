@@ -18,6 +18,6 @@ const CookiePolicy = () => {
 
 export default CookiePolicy;
 export const metadata = {
-  title: "Cookie Policy - DIG",
-  description: "Learn more about DIG's cookie policy",
+  title: "Cookie Policy - Dan-Tech Investments Limited",
+  description: "Learn more about Dan-Tech Investments Limited's cookie policy",
 };

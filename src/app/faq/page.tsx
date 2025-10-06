@@ -18,6 +18,7 @@ const Faqs = () => {
 
 export default Faqs;
 export const metadata = {
-  title: "Frequently Asked Questions - DIG",
-  description: "Find answers to common questions about DIG",
+  title: "Frequently Asked Questions - Dan-Tech Investments Limited",
+  description:
+    "Find answers to common questions about Dan-Tech Investments Limited",
 };

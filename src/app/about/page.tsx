@@ -23,6 +23,6 @@ const About = () => {
 
 export default About;
 export const metadata = {
-  title: "About DIG",
-  description: "Learn more about DIG",
+  title: "About Dan-Tech Investments Limited",
+  description: "Learn more about Dan-Tech Investments Limited",
 };

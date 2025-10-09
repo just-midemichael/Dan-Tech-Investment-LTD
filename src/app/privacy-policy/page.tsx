@@ -1,6 +1,7 @@
 import { privacyPolicyHero } from "@/db/globalHeroSection";
 import { GlobalHeroSection } from "@/section/globalHero/globalHeroSection";
 import { PrivacyPolicySection } from "@/section/privacyPolicy/privacyPolicySection";
+import { Metadata } from "next";
 
 const PrivacyPolicy = () => {
   return (
@@ -17,7 +18,7 @@ const PrivacyPolicy = () => {
 };
 
 export default PrivacyPolicy;
-export const metadata = {
-  title: "Privacy Policy | Dan-Tech Investments Limited",
+export const metadata: Metadata = {
+  title: "Privacy Policy",
   description: "Learn more about Dan-Tech Investments Limited's privacy policy",
 };

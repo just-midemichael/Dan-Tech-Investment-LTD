@@ -30,9 +30,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dan-Tech Investments Limited | Sustainable Investment Solutions",
+  title: {
+    default: "Dan-Tech Investments Limited ",
+    template: "%s | Dan-Tech Investments Limited",
+  },
   description:
     "Discover great opportunities to grow your income and expand your investment portfolio with Dan-Tech Investments Limited.",
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({

@@ -1,6 +1,7 @@
 import { faqHero } from "@/db/globalHeroSection";
 import { GlobalHeroSection } from "@/section/globalHero/globalHeroSection";
 import { FaqsSection } from "../../section/faqs/faqsSection";
+import { Metadata } from "next";
 
 const Faqs = () => {
   return (
@@ -17,8 +18,8 @@ const Faqs = () => {
 };
 
 export default Faqs;
-export const metadata = {
-  title: "Frequently Asked Questions - Dan-Tech Investments Limited",
+export const metadata: Metadata = {
+  title: "FAQ",
   description:
     "Find answers to common questions about Dan-Tech Investments Limited",
 };

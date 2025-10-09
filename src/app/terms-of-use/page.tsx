@@ -1,6 +1,7 @@
 import { termAndConditionHero } from "@/db/globalHeroSection";
 import { GlobalHeroSection } from "@/section/globalHero/globalHeroSection";
 import { TermsAndConditionsSection } from "@/section/termsAndCondition/termsAndConditionSection";
+import { Metadata } from "next";
 
 const TermsOfUse = () => {
   return (
@@ -17,7 +18,7 @@ const TermsOfUse = () => {
 };
 
 export default TermsOfUse;
-export const metadata = {
-  title: "Terms of Use | Dan-Tech Investments Limited",
+export const metadata: Metadata = {
+  title: "Terms of Use",
   description: "Learn more about Dan-Tech Investments Limited's terms of use",
 };

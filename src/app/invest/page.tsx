@@ -2,6 +2,7 @@ import { investHero } from "@/db/globalHeroSection";
 import { GlobalHeroSection } from "@/section/globalHero/globalHeroSection";
 import { ProductSection } from "@/section/product/productSection";
 import { WhyDanTechSection } from "@/section/whyDanTech/whyDanTechSection";
+import { Metadata } from "next";
 
 const Invest = () => {
   return (
@@ -20,7 +21,7 @@ const Invest = () => {
 };
 
 export default Invest;
-export const metadata = {
-  title: "Invest with Dan-Tech Investments Limited",
+export const metadata: Metadata = {
+  title: { absolute: "Invest with Dan-Tech Investments Limited" },
   description: "Start investing with Dan-Tech Investments Limited",
 };

@@ -4,6 +4,7 @@ import { HowToInvestSection } from "@/section/howToInvest/howToInvestSection";
 import { NewsLetter } from "@/section/newsLetter/newsLetter";
 import { ProductSection } from "@/section/product/productSection";
 import { WhyDanTechSection } from "@/section/whyDanTech/whyDanTechSection";
+import { Metadata } from "next";
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
 };
 
 export default Home;
-export const metadata = {
-  title: "Dan-Tech Investments Limited",
-  description: "Welcome to Dan-Tech Investments Limited",
+export const metadata: Metadata = {
+  title: "Homepage",
+  description: "Welcome to Dan-Tech Investments Limited Official Website",
 };

@@ -1,6 +1,7 @@
 import { cookiePolicyHero } from "@/db/globalHeroSection";
 import { CookiePolicySection } from "@/section/cookiePolicySection/cookiePolicySection";
 import { GlobalHeroSection } from "@/section/globalHero/globalHeroSection";
+import { Metadata } from "next";
 
 const CookiePolicy = () => {
   return (
@@ -17,7 +18,7 @@ const CookiePolicy = () => {
 };
 
 export default CookiePolicy;
-export const metadata = {
-  title: "Cookie Policy - Dan-Tech Investments Limited",
+export const metadata: Metadata = {
+  title: "Cookie Policy",
   description: "Learn more about Dan-Tech Investments Limited's cookie policy",
 };

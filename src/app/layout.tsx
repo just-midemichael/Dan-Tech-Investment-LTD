@@ -36,6 +36,10 @@ export const metadata: Metadata = {
   },
   description:
     "Discover great opportunities to grow your income and expand your investment portfolio with Dan-Tech Investments Limited.",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/di-fav-icon.png",
+  },
   twitter: {
     card: "summary_large_image",
   },

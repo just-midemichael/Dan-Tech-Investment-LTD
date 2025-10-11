@@ -1,6 +1,6 @@
 "use client";
 import { styled } from "@mui/material/styles";
-import Box from "@mui/material/Box";
+// import Box from "@mui/material/Box";
 
 export const H = styled("h1")({
   fontSize: "3.4rem",
@@ -20,7 +20,7 @@ export const H = styled("h1")({
   },
 });
 
-export const H1 = styled(Box)({
+export const H1 = styled("h1")({
   fontSize: "2.5rem",
   display: "flex",
   fontWeight: 700,
@@ -34,7 +34,7 @@ export const H1 = styled(Box)({
     fontSize: "1.75rem",
   },
 });
-export const H2 = styled(Box)({
+export const H2 = styled("h2")({
   fontSize: "2.25rem",
   fontWeight: 700,
   display: "flex",
@@ -48,7 +48,7 @@ export const H2 = styled(Box)({
     fontSize: "1.50rem",
   },
 });
-export const H3 = styled(Box)({
+export const H3 = styled("h3")({
   fontSize: "2.0rem",
   fontWeight: 700,
   display: "flex",
@@ -62,7 +62,7 @@ export const H3 = styled(Box)({
     fontSize: "1.25rem",
   },
 });
-export const H4 = styled(Box)({
+export const H4 = styled("h4")({
   fontSize: "1.75rem",
   fontWeight: 700,
   display: "flex",
@@ -76,7 +76,7 @@ export const H4 = styled(Box)({
     fontSize: "1.0rem",
   },
 });
-export const H5 = styled(Box)({
+export const H5 = styled("h5")({
   fontSize: "1.50rem",
   fontWeight: 700,
   display: "flex",
@@ -90,7 +90,7 @@ export const H5 = styled(Box)({
     fontSize: "0.95rem",
   },
 });
-export const H6 = styled(Box)({
+export const H6 = styled("h6")({
   fontSize: "1.25rem",
   fontWeight: 700,
   display: "flex",
